@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\CartController;
 use App\Models\Product;
+use App\Models\Order;
+use App\Models\OrderProduct;
+use App\Models\Category;
+
 
 
 
@@ -18,15 +22,20 @@ use App\Models\Product;
 |
 */
 
+// Route::get('/', function () {
+
+
+//  $result =   DB::table('categories')->get();
+
+
+
+//     return view('welcome', ['categories' => $result]);
+// });
+
 Route::get('/', function () {
-
-
- $result =   DB::table('categories')->get();
-
-
-
-    return view('welcome', ['categories' => $result]);
-});
+    $result = Product::all();
+    return view('welcome', ['products' => $result]);
+})->name('welcome');
 
 Route::get('/Products/{catid?}', function ($catid = null) {
 
@@ -41,9 +50,10 @@ Route::get('/Products/{catid?}', function ($catid = null) {
 
 });
 
-Route::get('/category', function () {
-    return view('category');
-});
+// Route::get('/category', function () {
+//     return view('category');
+// });
+
 
 Route::get('/about', function () {
     return view('about');
@@ -73,3 +83,4 @@ Route::get('admin', function () {
 Route::get('/add-to-cart/{id}', [App\Http\Controllers\CartController::class, 'addToCart'])->name('add.to.cart');
 
 Route::post('/order', [App\Http\Controllers\CartController::class, 'order'])->name('order.post');
+Route::get('/order-success', [App\Http\Controllers\CartController::class, 'orderSuccess'])->name('order.success');

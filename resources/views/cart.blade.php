@@ -31,7 +31,8 @@
         </form>
         </div>
     </div>
-</div>						<div class="cart-buttons">
+</div>			
+			<div class="cart-buttons">
 							<a href="cart.html" class="boxed-btn">Update Cart</a>
 							<a href="{{url('/Products')}}" class="boxed-btn black">Continue shopping</a>
 						</div>

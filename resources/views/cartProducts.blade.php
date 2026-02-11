@@ -68,7 +68,7 @@
                             </tbody>
                         </table>
                         <div class="cart-buttons mt-3">
-                            <a href="/checkout" class="boxed-btn black">Check Out</a>
+                            <button class="boxed-btn black" class="btn btn-success">Check Out</button>
                         </div>
                     </div>
                 </div>

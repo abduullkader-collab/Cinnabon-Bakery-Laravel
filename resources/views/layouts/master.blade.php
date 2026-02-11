@@ -64,25 +64,20 @@
 									
 								</li>
 								<li><a href="/about">About</a></li>
-								<li><a href="/category">Categories</a></li>
 								<li><a href="/Products">Products</a></li>
 								<li><a href="#">Pages</a>
 									<ul class="sub-menu">
-										<li><a href="/news">News</a></li>
 										<li><a href="/about">About</a></li>
-										<li><a href="/category">Categories</a></li>
 										<li><a href="/Products">Products</a></li>
 										<li><a href="/cart">Cart</a></li>
-										<li><a href="/checkout">Check Out</a></li>
 										<li><a href="/contact">Contact</a></li>
+										<li><a href="/settings">Settings</a></li>
 									</ul>
 								</li>
 
 										<li><a href="/contact">Contact</a></li>
-								<li><a href="">Shop</a>
+								<li><a>Shop</a>
 									<ul class="sub-menu">
-										<li><a href="/Products">Shop</a></li>
-										<li><a href="/checkout">Check Out</a></li>
 										<li><a href="/cart">Cart</a></li>
 									</ul>
 								</li>
@@ -131,12 +126,12 @@
 				<div class="row">
 					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
 						<div class="hero-text">
-							<div class="hero-text-tablecell">
+						<div class="hero-text-tablecell">
 								<p class="subtitle">Warm </p>
-								<h1>Delicious Seasonal Fruits</h1>
+								<h1>Delicious Cinnamon Rolls</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Fruit Collection</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="/Products" class="boxed-btn">Explore Our Bakery</a>
+									<a href="/contact" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>
 						</div>
@@ -150,14 +145,13 @@
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1 text-center">
 						<div class="hero-text">
-							<div class="hero-text-tablecell">
+						<div class="hero-text-tablecell">
 								<p class="subtitle">Fresh Everyday</p>
-								<h1>100% Organic Collection</h1>
+								<h1>100% Organic Baked Goods</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="/Products" class="boxed-btn">Visit Shop</a>
+									<a href="/contact" class="bordered-btn">Contact Us</a>
 								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -198,76 +192,75 @@
 
 
 
-    <!-- footer -->
-	<div class="footer-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box about-widget">
-						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
-					</div>
+   <!-- footer -->
+<div class="footer-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-box about-widget">
+					<h2 class="widget-title">About us</h2>
+					<p>At <strong>Cinnabon</strong>, we believe happiness begins with the first bite. We craft the world’s most irresistible cinnamon rolls and baked treats, made fresh every day with love and care.</p>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box get-in-touch">
-						<h2 class="widget-title">Get in Touch</h2>
-						<ul>
-							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-							<li>support@fruitkha.com</li>
-							<li>+00 111 222 3333</li>
-						</ul>
-					</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-box get-in-touch">
+					<h2 class="widget-title">Get in Touch</h2>
+					<ul>
+						<li>Main Branch – Al Haram District, Makkah, Saudi Arabia</li>
+						<li>support@cinnabon.com</li>
+						<li>+966 11 222 3333</li>
+					</ul>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box pages">
-						<h2 class="widget-title">Pages</h2>
-						<ul>
-							<li><a href="/">Home</a></li>
-							<li><a href="/about">About</a></li>
-							<li><a href="services.html">Shop</a></li>
-							<li><a href="news.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-box pages">
+					<h2 class="widget-title">Pages</h2>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/shop">Shop</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box subscribe">
-						<h2 class="widget-title">Subscribe</h2>
-						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
-							<input type="email" placeholder="Email">
-							<button type="submit"><i class="fas fa-paper-plane"></i></button>
-						</form>
-					</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-box subscribe">
+					<h2 class="widget-title">Subscribe</h2>
+					<p>Join our mailing list to receive the latest offers, new product launches, and sweet updates.</p>
+					<form action="index.html">
+						<input type="email" placeholder="Email">
+						<button type="submit"><i class="fas fa-paper-plane"></i></button>
+					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end footer -->
-	
-	<!-- copyright -->
-	<div class="copyright">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
-						Distributed By - <a href="https://themewagon.com/">Themewagon</a>
-					</p>
-				</div>
-				<div class="col-lg-6 text-right col-md-12">
-					<div class="social-icons">
-						<ul>
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-						</ul>
-					</div>
+</div>
+<!-- end footer -->
+
+<!-- copyright -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12">
+				<p>Copyrights &copy; 2026 - <strong>Cinnabon</strong>, All Rights Reserved.<br>
+					Powered by Abdulkadir Ibrahim
+				</p>
+			</div>
+			<div class="col-lg-6 text-right col-md-12">
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 	<!-- end copyright -->
 	
 	<!-- jquery -->
